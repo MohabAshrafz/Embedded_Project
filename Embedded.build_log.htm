@@ -3,11 +3,12 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\Abdelrhman\Desktop\Embedded_Project\Embedded.uvproj
+C:\Users\Mohab\Desktop\Clone\Embedded_Project\Embedded.uvproj
 Project File Date:  05/25/2022
 
 <h2>Output:</h2>
-Build target 'Target 1'
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
 compiling Ports_Init.c...
 compiling KPD.c...
 Functions.h(20): warning:  #1-D: last line of file ends without a newline
@@ -28,9 +29,7 @@ LCD.h(12): warning:  #1-D: last line of file ends without a newline
   void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
 Functions.h(20): warning:  #1-D: last line of file ends without a newline
         
-main.c(6): error:  #5: cannot open source input file "Cases.h": No such file or directory
-  #include "Cases.h"
-main.c: 3 warnings, 1 error
+main.c: 3 warnings, 0 errors
 compiling Case_B.c...
 functions.h(20): warning:  #1-D: last line of file ends without a newline
         
@@ -67,7 +66,18 @@ KPD.h(1): warning:  #1-D: last line of file ends without a newline
 Case_C.c(55): warning:  #1-D: last line of file ends without a newline
         
 Case_C.c: 4 warnings, 0 errors
-".\Embedded.axf" - 1 Error(s), 20 Warning(s).
+linking...
+.\Embedded.axf: Error: L6200E: Symbol GenericDelay multiply defined (by case d.o and functions.o).
+.\Embedded.axf: Error: L6200E: Symbol Systick_10ms multiply defined (by case d.o and functions.o).
+.\Embedded.axf: Error: L6200E: Symbol Check_Switch multiply defined (by case d.o and functions.o).
+.\Embedded.axf: Error: L6200E: Symbol Conversion multiply defined (by case d.o and functions.o).
+.\Embedded.axf: Error: L6200E: Symbol Blinking_Buzzer multiply defined (by case d.o and functions.o).
+.\Embedded.axf: Error: L6200E: Symbol Display_Timer multiply defined (by case d.o and functions.o).
+.\Embedded.axf: Error: L6200E: Symbol Timer multiply defined (by case d.o and functions.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 7 error messages.
+".\Embedded.axf" - 7 Error(s), 20 Warning(s).
 Target not created
 </pre>
 </body>
