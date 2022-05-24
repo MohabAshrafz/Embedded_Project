@@ -3,17 +3,22 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\Abdelrhman\Desktop\Embedded_Project\Embedded.uvproj
+C:\Users\DELL\Documents\Alaa_githup\Embedded_Project\Embedded.uvproj
 Project File Date:  05/24/2022
 
 <h2>Output:</h2>
 Build target 'Target 1'
+assembling startup_TM4C123.s...
 compiling Ports_Init.c...
 compiling KPD.c...
 KPD.c(2): error:  #5: cannot open source input file "Ports_Init.h": No such file or directory
   #include "Ports_Init.h"
 KPD.c: 0 warnings, 1 error
-".\Embedded.axf" - 1 Error(s), 0 Warning(s).
+compiling Functions.c...
+Functions.c(2): error:  #5: cannot open source input file "LCD.h": No such file or directory
+  #include "LCD.h"
+Functions.c: 0 warnings, 1 error
+".\Embedded.axf" - 2 Error(s), 0 Warning(s).
 Target not created
 </pre>
 </body>
