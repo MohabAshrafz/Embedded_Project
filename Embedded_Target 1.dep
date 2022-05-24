@@ -1,9 +1,9 @@
 Dependencies for Project 'Embedded', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_TM4C123.s)(0x628C3EDA)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
-F (.\Ports_Init.c)(0x628C4406)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\ports_init.o --omf_browse .\ports_init.crf --depend .\ports_init.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-F (.\KPD.c)(0x628C4F11)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\kpd.o --omf_browse .\kpd.crf --depend .\kpd.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (Ports_Init.h)(0x628CC494)
-F (.\Functions.c)(0x628CC4AD)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
+F (.\startup_TM4C123.s)(0x628CA8D5)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\Ports_Init.c)(0x628CA8D5)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\ports_init.o --omf_browse .\ports_init.crf --depend .\ports_init.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+F (.\KPD.c)(0x628CDFC0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\kpd.o --omf_browse .\kpd.crf --depend .\kpd.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (Ports_Init.h)(0x628CDFC0)
+F (.\Functions.c)(0x628CE025)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)

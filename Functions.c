@@ -21,6 +21,20 @@ void GenericDelay(unsigned long delay)
 		}
 }
 
+void Conversion(unsigned int time , int* min , int* sec){
+	
+	int hour ;
+	
+	hour = (time/3600);                    						 //calculate hours
+		
+	*min = (time -(3600 * hour))/60;									//calculate minutes
+	
+	if ((time-(12*((int)(time/12))))==0 && time!=60) {*sec = (time -(3600 * hour)-(*min * 60));}  // Case C
+	
+	else {*sec = (time -(3600 * hour)-(*min * 60))/10;}		// ( min : sec)  // Case B
+	
+}
+
 void Blinking_Buzzer()
 {
 	int i ;
