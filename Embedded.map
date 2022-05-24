@@ -118,9 +118,9 @@ Memory Map of the image
 
   Image Entry point : 0x00000000
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00000790, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x000008c8, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Base: 0x00000000, Size: 0x00000790, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x000008c8, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -168,25 +168,25 @@ Memory Map of the image
     0x000002a6   0x00000002   PAD
     0x000002a8   0x00000004   Code   RO          113    .emb_text           c_w.l(argv_veneer.o)
     0x000002ac   0x00000114   Code   RO            4  * .text               startup_tm4c123.o
-    0x000003c0   0x00000160   Code   RO           10    .text               ports_init.o
-    0x00000520   0x00000006   Code   RO           28    .text               c_w.l(heapauxi.o)
-    0x00000526   0x0000004a   Code   RO           48    .text               c_w.l(sys_stackheap_outer.o)
-    0x00000570   0x0000000c   Code   RO           50    .text               c_w.l(exit.o)
-    0x0000057c   0x00000008   Code   RO           58    .text               c_w.l(libspace.o)
-    0x00000584   0x0000000c   Code   RO          117    .text               c_w.l(sys_exit.o)
-    0x00000590   0x0000012e   Code   RO          121    .text               c_w.l(_get_argv_nomalloc.o)
-    0x000006be   0x00000018   Code   RO          126    .text               c_w.l(sys_command.o)
-    0x000006d6   0x00000002   Code   RO          128    .text               c_w.l(use_no_semi.o)
-    0x000006d8   0x00000000   Code   RO          130    .text               c_w.l(indicate_semi.o)
-    0x000006d8   0x00000004   Code   RO          131    .text               c_w.l(hrguard.o)
-    0x000006dc   0x0000000e   Code   RO          133    .text               c_w.l(defsig_rtmem_outer.o)
-    0x000006ea   0x0000000a   Code   RO          154    .text               c_w.l(defsig_exit.o)
-    0x000006f4   0x00000050   Code   RO          156    .text               c_w.l(defsig_rtmem_inner.o)
-    0x00000744   0x00000032   Code   RO          160    .text               c_w.l(defsig_general.o)
-    0x00000776   0x0000000e   Code   RO          162    .text               c_w.l(sys_wrch.o)
-    0x00000784   0x0000000a   Code   RO          115    x$fpl$fpinit        fz_wm.l(fpinit.o)
-    0x0000078e   0x00000002   PAD
-    0x00000790   0x00000000   Data   RO          182    Region$$Table       anon$$obj.o
+    0x000003c0   0x00000298   Code   RO           10    .text               ports_init.o
+    0x00000658   0x00000006   Code   RO           28    .text               c_w.l(heapauxi.o)
+    0x0000065e   0x0000004a   Code   RO           48    .text               c_w.l(sys_stackheap_outer.o)
+    0x000006a8   0x0000000c   Code   RO           50    .text               c_w.l(exit.o)
+    0x000006b4   0x00000008   Code   RO           58    .text               c_w.l(libspace.o)
+    0x000006bc   0x0000000c   Code   RO          117    .text               c_w.l(sys_exit.o)
+    0x000006c8   0x0000012e   Code   RO          121    .text               c_w.l(_get_argv_nomalloc.o)
+    0x000007f6   0x00000018   Code   RO          126    .text               c_w.l(sys_command.o)
+    0x0000080e   0x00000002   Code   RO          128    .text               c_w.l(use_no_semi.o)
+    0x00000810   0x00000000   Code   RO          130    .text               c_w.l(indicate_semi.o)
+    0x00000810   0x00000004   Code   RO          131    .text               c_w.l(hrguard.o)
+    0x00000814   0x0000000e   Code   RO          133    .text               c_w.l(defsig_rtmem_outer.o)
+    0x00000822   0x0000000a   Code   RO          154    .text               c_w.l(defsig_exit.o)
+    0x0000082c   0x00000050   Code   RO          156    .text               c_w.l(defsig_rtmem_inner.o)
+    0x0000087c   0x00000032   Code   RO          160    .text               c_w.l(defsig_general.o)
+    0x000008ae   0x0000000e   Code   RO          162    .text               c_w.l(sys_wrch.o)
+    0x000008bc   0x0000000a   Code   RO          115    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x000008c6   0x00000002   PAD
+    0x000008c8   0x00000000   Data   RO          182    Region$$Table       anon$$obj.o
 
 
     Execution Region ER_RW (Base: 0x20000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
