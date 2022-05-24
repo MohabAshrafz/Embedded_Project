@@ -21,6 +21,24 @@ void GenericDelay(unsigned long delay)
 		}
 }
 
+
+int Check_Switch(){
+					
+		int SW12_in;
+	
+		SW12_in =  GPIO_PORTF_DATA_R & 0x11; 	//Read Input from Switches 1&2
+	
+				switch (SW12_in){
+						
+					case 0x01:						//SW1 is pressed		
+								return 1;					      																
+					case 0x10:						//SW2 is pressed
+								return 2;				   
+					default:
+						return 0;									
+					}
+}
+
 void Conversion(unsigned int time , int* min , int* sec){
 	
 	int hour ;
