@@ -20,3 +20,15 @@ void GenericDelay(unsigned long delay)
 			Systick_10ms();
 		}
 }
+
+void Blinking_Buzzer()
+{
+	int i ;
+	for(i = 0 ; i < 6 ; i++)
+	{
+		GPIO_PORTF_DATA_R ^= 0x0E ;     	 // Toggle LEDs
+    GPIO_PORTE_DATA_R ^= 0x10 ;		  	//Toggle buzzer pin4
+	  GenericDelay(100);						  	// wait 1 second
+	}
+	GPIO_PORTF_DATA_R &= ~0x0E;       	//Turn Leds OFF
+}
