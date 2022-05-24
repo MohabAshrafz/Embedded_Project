@@ -445,6 +445,11 @@
               <FileType>1</FileType>
               <FilePath>.\LCD.c</FilePath>
             </File>
+            <File>
+              <FileName>Case_A.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Case_A.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
