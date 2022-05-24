@@ -247,10 +247,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>2</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>11</CurrentLine>
+      <TopLine>30</TopLine>
+      <CurrentLine>57</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -302,6 +302,22 @@
       <bDave2>0</bDave2>
       <PathWithFileName>.\Case_A.c</PathWithFileName>
       <FilenameWithoutPath>Case_A.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>9</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>1</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>188</TopLine>
+      <CurrentLine>215</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Case D.c</PathWithFileName>
+      <FilenameWithoutPath>Case D.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
