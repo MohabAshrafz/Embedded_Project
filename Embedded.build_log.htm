@@ -8,7 +8,6 @@ Project File Date:  05/24/2022
 
 <h2>Output:</h2>
 Build target 'Target 1'
-compiling Ports_Init.c...
 compiling KPD.c...
 KPD.c(3): error:  #5: cannot open source input file "Functions.h": No such file or directory
   #include "Functions.h"
@@ -21,7 +20,11 @@ compiling main.c...
 main.c(3): error:  #5: cannot open source input file "KPD.h": No such file or directory
   #include "KPD.h"
 main.c: 0 warnings, 1 error
-".\Embedded.axf" - 3 Error(s), 0 Warning(s).
+compiling Case D.c...
+Case D.c(1): error:  #5: cannot open source input file "Functions.h": No such file or directory
+  #include "Functions.h"
+Case D.c: 0 warnings, 1 error
+".\Embedded.axf" - 4 Error(s), 0 Warning(s).
 Target not created
 </pre>
 </body>
