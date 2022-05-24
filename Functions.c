@@ -12,11 +12,11 @@ void Systick_10ms()
 		while((NVIC_ST_CTRL_R & 0x00010000) == 0) {} 	// Wait 10 ms
 }
 
-void GenericDelay(unsigned long delay)
+void GenericDelay(unsigned long delay)				// Used to wait more than 10 ms
 {	
 		int i;
 		for (i=0 ; i < delay ; i++)
-		{									// Used to wait more than 10 ms
+		{									
 			Systick_10ms();
 		}
 }
@@ -47,7 +47,7 @@ void Blinking_Buzzer()
 	GPIO_PORTF_DATA_R &= ~0x0E;       	//Turn Leds OFF
 }
 
-void Display_Timer(unsigned char *timerr){
+void Display_Timer(unsigned char *timerr){		//Show Timer on LCD
 	
 	int i;
 	Cursor_Pos(2,6);

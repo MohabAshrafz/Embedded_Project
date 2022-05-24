@@ -2,7 +2,7 @@
 #include "Ports_Init.h"
 #include "Functions.h"
 
-void LCD_cmd(unsigned char cmd){
+void LCD_cmd(unsigned char cmd){			//Configure LCD
 	
 	GPIO_PORTB_DATA_R=cmd;
 	
@@ -15,29 +15,25 @@ void LCD_cmd(unsigned char cmd){
 
 void LCD_Init (void)                     
 {
-	// Function Set  
-	LCD_cmd(0x38);
+	
+	LCD_cmd(0x38);					// Function Set  
+	GenericDelay(3);
+	 
+	LCD_cmd(0x06);					// Entry Mode Set 
 	GenericDelay(3);
 	
-	// Entry Mode Set  
-	LCD_cmd(0x06);
+	LCD_cmd(0x0F);					// Display ON OFF Control 
 	GenericDelay(3);
 	
-	// Display ON OFF Control 
-	LCD_cmd(0x0F);
+	LCD_cmd(0x01);					// Clear Display
 	GenericDelay(3);
 	
-	// Clear Display
-	LCD_cmd(0x01);
-	GenericDelay(3);
-	
-	// Return Home 
-	LCD_cmd(0x02);
+	LCD_cmd(0x02);					// Return Home 
 	GenericDelay(3);
 	
 }
 
-void LCD_write(unsigned char data){
+void LCD_write(unsigned char data){			//Display Char
 	
 	GPIO_PORTB_DATA_R=data;
 	
@@ -48,7 +44,7 @@ void LCD_write(unsigned char data){
 
 }
 
-void LCD_write_String(char *Str)           
+void LCD_write_String(char *Str)      //Display String     
 {
 	while(*Str)
 	{
@@ -60,7 +56,7 @@ void LCD_write_String(char *Str)
 void Cursor_Pos(unsigned char row , unsigned char pos)
 	{
 		
-	if (row == 1 ) LCD_cmd(0x80 + (pos-1) );   						 //first row 
-	else if (row == 2)  LCD_cmd(0xC0 + (pos-1) );          // second row 
+	if (row == 1 ) LCD_cmd(0x80 + (pos-1) );   						 //First row 
+	else if (row == 2)  LCD_cmd(0xC0 + (pos-1) );          //Second row 
 	
 }

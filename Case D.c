@@ -19,7 +19,7 @@ void Case_D()
 		time[i] = get_key();
 		GenericDelay(30);
 		
-		if (time[i] < '0'  ||  time[i] > '9' )
+		if (time[i] < '0'  ||  time[i] > '9' )     // in case of invalid input
 		{			
 			LCD_cmd(0x01);
 			Cursor_Pos(1,2);		
@@ -66,8 +66,8 @@ void Case_D()
 	
 		while(1){
 		
-			if (Check_Switch() == 1) Case_D();
-			if (Check_Switch() == 2) Timer(&time[0]);	
+			if (Check_Switch() == 1) Case_D();						// Reset Time
+			if (Check_Switch() == 2) Timer(&time[0]);			// Confirm Time
 		
 		}
 	

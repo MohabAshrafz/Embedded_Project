@@ -68,7 +68,7 @@ void SystemInit(){																//initialize Port F
 	GPIO_PORTE_LOCK_R = 0x4C4F434B;								//Unlock Port E
 	GPIO_PORTE_CR_R |= 0x3E;											//Allow changes in port PE12345
 	GPIO_PORTE_DIR_R = 0x1E;											//Set output pins PE1234
-	GPIO_PORTE_DEN_R = 0x3E;											//Enable Digital Pins PB12345
+	GPIO_PORTE_DEN_R = 0x3E;											//Enable Digital Pins PE12345
 	GPIO_PORTE_AMSEL_R = 0x00;										//Disable analog functions
 	GPIO_PORTE_AFSEL_R = 0x00;										//Disable alternate functions
 	GPIO_PORTE_PCTL_R = 0x00000000;								//Set pins to GPIO

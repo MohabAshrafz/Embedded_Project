@@ -435,6 +435,16 @@
               <FileType>1</FileType>
               <FilePath>.\Case D.c</FilePath>
             </File>
+            <File>
+              <FileName>Case_B.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Case_B.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\LCD.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

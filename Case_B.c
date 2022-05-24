@@ -39,7 +39,7 @@ void Case_B()
 		Timer(&time[0]);
     		
 	}
-	else 
+	else 									// Invalid weight
 	{
 			LCD_cmd(0x01); 
 			Cursor_Pos( 1 , 7 );
