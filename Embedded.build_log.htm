@@ -3,12 +3,11 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-E:\Junior\github\Embedded_Project\Embedded.uvproj
+C:\Users\Abdelrhman\Desktop\Embedded_Project\Embedded.uvproj
 Project File Date:  05/25/2022
 
 <h2>Output:</h2>
 Build target 'Target 1'
-assembling startup_TM4C123.s...
 compiling Ports_Init.c...
 compiling KPD.c...
 Functions.h(20): warning:  #1-D: last line of file ends without a newline
@@ -23,17 +22,23 @@ Functions.h(20): warning:  #1-D: last line of file ends without a newline
         
 Functions.c: 2 warnings, 0 errors
 compiling main.c...
-main.c(3): error:  #5: cannot open source input file "KPD.h": No such file or directory
-  #include "KPD.h"
-main.c: 0 warnings, 1 error
+KPD.h(1): warning:  #1-D: last line of file ends without a newline
+  char get_key (void);
+LCD.h(12): warning:  #1-D: last line of file ends without a newline
+  void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
+Functions.h(20): warning:  #1-D: last line of file ends without a newline
+        
+main.c(6): error:  #5: cannot open source input file "Cases.h": No such file or directory
+  #include "Cases.h"
+main.c: 3 warnings, 1 error
 compiling Case_B.c...
 functions.h(20): warning:  #1-D: last line of file ends without a newline
         
 LCD.h(12): warning:  #1-D: last line of file ends without a newline
   void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
-Case_B.c(4): error:  #5: cannot open source input file "KPD.h": No such file or directory
-  #include "KPD.h"
-Case_B.c: 2 warnings, 1 error
+KPD.h(1): warning:  #1-D: last line of file ends without a newline
+  char get_key (void);
+Case_B.c: 3 warnings, 0 errors
 compiling LCD.c...
 Functions.h(20): warning:  #1-D: last line of file ends without a newline
         
@@ -57,10 +62,12 @@ functions.h(20): warning:  #1-D: last line of file ends without a newline
         
 LCD.h(12): warning:  #1-D: last line of file ends without a newline
   void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
-Case_C.c(4): error:  #5: cannot open source input file "KPD.h": No such file or directory
-  #include "KPD.h"
-Case_C.c: 2 warnings, 1 error
-".\Embedded.axf" - 3 Error(s), 14 Warning(s).
+KPD.h(1): warning:  #1-D: last line of file ends without a newline
+  char get_key (void);
+Case_C.c(55): warning:  #1-D: last line of file ends without a newline
+        
+Case_C.c: 4 warnings, 0 errors
+".\Embedded.axf" - 1 Error(s), 20 Warning(s).
 Target not created
 </pre>
 </body>
