@@ -415,6 +415,11 @@
               <FileType>1</FileType>
               <FilePath>.\Ports_Init.c</FilePath>
             </File>
+            <File>
+              <FileName>KPD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\KPD.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
