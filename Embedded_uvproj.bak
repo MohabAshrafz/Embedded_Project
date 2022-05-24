@@ -445,6 +445,11 @@
               <FileType>1</FileType>
               <FilePath>.\Case_A.c</FilePath>
             </File>
+            <File>
+              <FileName>Case D.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Case D.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
