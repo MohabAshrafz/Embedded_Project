@@ -3,15 +3,25 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\DELL\Documents\Alaa_githup\Embedded_Project\Embedded.uvproj
+E:\Junior\github\Embedded_Project\Embedded.uvproj
 Project File Date:  05/25/2022
 
 <h2>Output:</h2>
 Build target 'Target 1'
+assembling startup_TM4C123.s...
+compiling Ports_Init.c...
+compiling KPD.c...
+Functions.h(20): warning:  #1-D: last line of file ends without a newline
+        
+KPD.c(28): warning:  #1-D: last line of file ends without a newline
+  }
+KPD.c: 2 warnings, 0 errors
 compiling Functions.c...
-Functions.c(2): error:  #5: cannot open source input file "LCD.h": No such file or directory
-  #include "LCD.h"
-Functions.c: 0 warnings, 1 error
+LCD.h(12): warning:  #1-D: last line of file ends without a newline
+  void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
+Functions.h(20): warning:  #1-D: last line of file ends without a newline
+        
+Functions.c: 2 warnings, 0 errors
 compiling main.c...
 main.c(3): error:  #5: cannot open source input file "KPD.h": No such file or directory
   #include "KPD.h"
@@ -19,33 +29,39 @@ main.c: 0 warnings, 1 error
 compiling Case_B.c...
 functions.h(20): warning:  #1-D: last line of file ends without a newline
         
-Case_B.c(3): error:  #5: cannot open source input file "LCD.h": No such file or directory
-  #include "LCD.h"
-Case_B.c: 1 warning, 1 error
+LCD.h(12): warning:  #1-D: last line of file ends without a newline
+  void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
+Case_B.c(4): error:  #5: cannot open source input file "KPD.h": No such file or directory
+  #include "KPD.h"
+Case_B.c: 2 warnings, 1 error
+compiling LCD.c...
+Functions.h(20): warning:  #1-D: last line of file ends without a newline
+        
+LCD.c: 1 warning, 0 errors
 compiling Case_A.c...
-Case_A.c(2): error:  #5: cannot open source input file "LCD.h": No such file or directory
-  #include "LCD.h"
-Case_A.c: 0 warnings, 1 error
+LCD.h(12): warning:  #1-D: last line of file ends without a newline
+  void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
+Functions.h(20): warning:  #1-D: last line of file ends without a newline
+        
+Case_A.c: 2 warnings, 0 errors
 compiling Case D.c...
-Case D.c(2): error:  #5: cannot open source input file "LCD.h": No such file or directory
-  #include "LCD.h"
-Case D.c: 0 warnings, 1 error
+LCD.h(12): warning:  #1-D: last line of file ends without a newline
+  void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
+Functions.h(20): warning:  #1-D: last line of file ends without a newline
+        
+Case D.c(215): warning:  #1-D: last line of file ends without a newline
+  }
+Case D.c: 3 warnings, 0 errors
 compiling Case_C.c...
 functions.h(20): warning:  #1-D: last line of file ends without a newline
         
-Case_C.c(3): error:  #5: cannot open source input file "LCD.h": No such file or directory
-  #include "LCD.h"
-Case_C.c: 1 warning, 1 error
-".\Embedded.axf" - 6 Error(s), 2 Warning(s).
+LCD.h(12): warning:  #1-D: last line of file ends without a newline
+  void OUT( unsigned char  hundreds , unsigned char tens , unsigned char units);
+Case_C.c(4): error:  #5: cannot open source input file "KPD.h": No such file or directory
+  #include "KPD.h"
+Case_C.c: 2 warnings, 1 error
+".\Embedded.axf" - 3 Error(s), 14 Warning(s).
 Target not created
 </pre>
 </body>
 </html>
-compiling Case_C.c...
-functions.h(20): warning:  #1-D: last line of file ends without a newline
-        
-Case_C.c(3): error:  #5: cannot open source input file "LCD.h": No such file or directory
-  #include "LCD.h"
-Case_C.c: 1 warning, 1 error
-".\Embedded.axf" - 6 Error(s), 5 Warning(s).
-Target not created
