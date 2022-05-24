@@ -420,6 +420,11 @@
               <FileType>1</FileType>
               <FilePath>.\KPD.c</FilePath>
             </File>
+            <File>
+              <FileName>Functions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Functions.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
