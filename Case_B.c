@@ -17,7 +17,7 @@ void Case_B()
 	 weight = get_key() ;
 	
 	if (weight >= '1' && weight <= '9')
-	{
+{
 		
 		LCD_write(weight);
 	
@@ -36,16 +36,18 @@ void Case_B()
 
 		Cursor_Pos( 1 , 6 );
 		LCD_write_String("Time");
+		Display_Timer(&time[0]);
+		while( (GPIO_PORTF_DATA_R & 0x01) != 0){}	
 		Timer(&time[0]);
     		
 	}
-	else 
-	{
+		else 
+		{
 			LCD_cmd(0x01); 
 			Cursor_Pos( 1 , 7 );
 			LCD_write_String("Err");
 		  GenericDelay(200);
 			LCD_cmd(0x01);
 			Case_B();
+		}
 	}
-}
