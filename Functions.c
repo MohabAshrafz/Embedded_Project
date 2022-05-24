@@ -46,3 +46,16 @@ void Blinking_Buzzer()
 	}
 	GPIO_PORTF_DATA_R &= ~0x0E;       	//Turn Leds OFF
 }
+
+void Display_Timer(unsigned char *timerr){
+	
+	int i;
+	Cursor_Pos(2,6);
+	
+	for(i=0 ; i<4 ; i++){	
+		LCD_write(*timerr);
+		GenericDelay(1);
+		timerr++;
+		if (i == 1) LCD_write(':');     
+		}																	
+}
