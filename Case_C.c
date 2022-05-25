@@ -43,9 +43,9 @@ void Case_C()
 	}
 
 		else 
-		{
-			Cursor_Pos( 1 , 7 );
+		{			
 			LCD_cmd(0x01); 
+			Cursor_Pos( 1 , 7 );
 			LCD_write_String("Err");
 		  GenericDelay(200);
 			Case_C();
