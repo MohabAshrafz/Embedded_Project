@@ -16,5 +16,3 @@ void Display_Timer(unsigned char *timerr);
 int Interrupt_Check(void);
 
 int main(void);
-
-	

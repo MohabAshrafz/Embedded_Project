@@ -4,3 +4,4 @@
 .\main.o: KPD.h
 .\main.o: LCD.h
 .\main.o: Functions.h
+.\main.o: Cases.h

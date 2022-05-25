@@ -54,7 +54,7 @@ void Case_D()
 		}
 	}
 	
-	if (time[0] > '3' || ( time[1] < '1' && time[0] == '0' ) || ( time[0] == '3' && (time[1] > '0' || time[2] > '0' || time[3] > '0' )) ) 
+	if (time[0] > '3' || ( time[1] < '1' && time[0] == '0' ) || ( time[0] == '3' && (time[1] > '0' || time[2] > '0' || time[3] > '0' )) )   //Invalid Time 
 		{			
 			LCD_cmd(0x01);
 			Cursor_Pos(1,2);		
@@ -66,8 +66,8 @@ void Case_D()
 	
 		while(1){
 		
-			if (Check_Switch() == 1) Case_D();
-			if (Check_Switch() == 2) Timer(&time[0]);	
+			if (Check_Switch() == 1) Case_D();						//Reset Time
+			if (Check_Switch() == 2) Timer(&time[0]);			//Confirm Time
 		
 		}
 	

@@ -1,40 +1,41 @@
 Dependencies for Project 'Embedded', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_TM4C123.s)(0x628C3EDA)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
-F (.\Ports_Init.c)(0x628C4406)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\ports_init.o --omf_browse .\ports_init.crf --depend .\ports_init.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-F (.\KPD.c)(0x628C4F11)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\kpd.o --omf_browse .\kpd.crf --depend .\kpd.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (Ports_Init.h)(0x628D6099)
-I (Functions.h)(0x628D68B0)
-F (.\Functions.c)(0x628D6099)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (LCD.h)(0x628D68B0)
-I (Functions.h)(0x628D68B0)
-F (.\main.c)(0x628D609A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (Ports_Init.h)(0x628D6099)
-I (KPD.h)(0x628D6928)
-I (LCD.h)(0x628D68B0)
-I (Functions.h)(0x628D68B0)
-F (.\Case_B.c)(0x628D6099)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\case_b.o --omf_browse .\case_b.crf --depend .\case_b.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (functions.h)(0x628D68B0)
-I (LCD.h)(0x628D68B0)
-I (KPD.h)(0x628D6928)
-F (.\LCD.c)(0x628D6099)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (Ports_Init.h)(0x628D6099)
-I (Functions.h)(0x628D68B0)
-F (.\Case_A.c)(0x628D6099)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\case_a.o --omf_browse .\case_a.crf --depend .\case_a.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (LCD.h)(0x628D68B0)
-I (Functions.h)(0x628D68B0)
-F (.\Case D.c)(0x628D6D03)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o ".\case d.o" --omf_browse ".\case d.crf" --depend ".\case d.d")
-I (Functions.h)(0x628D68B0)
-I (LCD.h)(0x628D68B0)
-I (KPD.h)(0x628D6928)
-F (.\Case_C.c)(0x628D68B0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\case_c.o --omf_browse .\case_c.crf --depend .\case_c.d)
-I (tm4c123gh6pm.h)(0x628C3EDA)
-I (functions.h)(0x628D68B0)
-I (LCD.h)(0x628D68B0)
-I (KPD.h)(0x628D6928)
+F (.\startup_TM4C123.s)(0x628CA8D5)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\Ports_Init.c)(0x628D717A)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\ports_init.o --omf_browse .\ports_init.crf --depend .\ports_init.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+F (.\KPD.c)(0x628D720D)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\kpd.o --omf_browse .\kpd.crf --depend .\kpd.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (Ports_Init.h)(0x628D5FA3)
+I (Functions.h)(0x628D7142)
+F (.\Functions.c)(0x628D5FA3)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (LCD.h)(0x628D7142)
+I (Functions.h)(0x628D7142)
+F (.\main.c)(0x628D722F)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (Ports_Init.h)(0x628D5FA3)
+I (KPD.h)(0x628D7142)
+I (LCD.h)(0x628D7142)
+I (Functions.h)(0x628D7142)
+I (Cases.h)(0x628821AE)
+F (.\Case_B.c)(0x628D7235)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\case_b.o --omf_browse .\case_b.crf --depend .\case_b.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (functions.h)(0x628D7142)
+I (LCD.h)(0x628D7142)
+I (KPD.h)(0x628D7142)
+F (.\LCD.c)(0x628D727E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (Ports_Init.h)(0x628D5FA3)
+I (Functions.h)(0x628D7142)
+F (.\Case_A.c)(0x628D71E6)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\case_a.o --omf_browse .\case_a.crf --depend .\case_a.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (LCD.h)(0x628D7142)
+I (Functions.h)(0x628D7142)
+F (.\Case D.c)(0x628D7287)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o ".\case d.o" --omf_browse ".\case d.crf" --depend ".\case d.d")
+I (Functions.h)(0x628D7142)
+I (LCD.h)(0x628D7142)
+I (KPD.h)(0x628D7142)
+F (.\Case_C.c)(0x628D722B)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\case_c.o --omf_browse .\case_c.crf --depend .\case_c.d)
+I (tm4c123gh6pm.h)(0x628CA8D5)
+I (functions.h)(0x628D7142)
+I (LCD.h)(0x628D7142)
+I (KPD.h)(0x628D7142)

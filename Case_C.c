@@ -37,7 +37,7 @@ void Case_C()
 		Cursor_Pos( 1 , 6 );
 		LCD_write_String("Time");
 		Display_Timer(&time[0]);
-		while( (GPIO_PORTF_DATA_R & 0x01) != 0){}	
+		while( (GPIO_PORTF_DATA_R & 0x01) != 0){}	   		//wait untill second switch is pressed
 		Timer(&time[0]);
 	
 	}
@@ -51,5 +51,3 @@ void Case_C()
 			Case_C();
 		}
 	}
-
-	
